@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="player.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+
+            <div class="nav">
+
+                <div class="nav-option spotify">
+                    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="spotify">
+                </div>
+
+                <div class="nav-option" id="home">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+                
+            </div>
+            
+        
+        <div class="space"></div>
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="/images/library_icon.png" alt="library">
+                    <a href="#">Your Library</a>
+                </div>
+            <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            
+        </div>
+        <div class="lib-box">
+            <div class="box playlist">
+                <p class="box-p1">Create your first playlist</p>
+                <p class="box-p2">Its' easy, we'll help you</p>
+                <button class="badge">Create playlist</button>
+            </div>
+            <div class="box podcast">
+                <p class="box-p3">Lets's find some podcast to follow </p>
+                <p class="box-p4">We'll keep you updated on new episodes</p>
+                <button class="badge">Browse podcasts</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="empty"></div>
+
+    <div class="main-content">
+        <div class="sticky-nav">
+
+            <div class="sticky-nav-arrows">
+                <img src="/images/backward_icon.png" alt="backward-arrow">
+                <img src="/images/forward_icon.png" class="hide" alt="forward-arrow">
+            </div>
+            
+            <div class="sticky-nav-buttons">
+                <button type="button" class="badge premium hide"> Explore Premium</button>
+
+                <button type="button" class="install"><i class="fa-regular fa-circle-down"></i> Install App</button>
+
+                <i class="fa-regular fa-user user"></i></div>
+            </div>
+
+        <div class="cards">
+            <h2>Recently Played</h2>
+            <div class="card-container recently-played">
+                <div class="card top50">
+                    <img src="/images/card1img.jpeg" class="card-img10" alt="song">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+
+                <!-- <div class="card">
+                    <img src="/images/card2img.jpeg" class="card-img2" alt="song">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="/images/card3img.jpeg" class="card-img3" alt="song">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="/images/card4img.jpeg" class="card-img4" alt="song">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div> -->
+
+                <div class="card pinterst1 shadow1">
+                        <img src="https://i.pinimg.com/736x/6a/7d/8f/6a7d8fd06cebfa8860ff0a9f48022ab4.jpg" class="card-img img1" alt="song">
+                        
+                </div>
+
+                <div class="card pinterst shadow2">
+                    <img src="https://i.pinimg.com/736x/32/48/3e/32483e68bfb5f242418c96d815bcd166.jpg" class="card-img img2" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow3">
+                    <img src="https://i.pinimg.com/564x/9b/52/1e/9b521e9cb821a5d40133cab607123030.jpg" class="card-img img3" alt="song">
+                    
+                </div>
+
+                
+                <div class="card pinterst shadow4">
+                    <img src="https://i.pinimg.com/564x/9e/4f/72/9e4f72c82c49eb1d42411165da2a5460.jpg" class="card-img img4" alt="song">
+                    
+                </div>
+                
+                <div class="card pinterst shadow5">
+                    <img src="https://i.pinimg.com/564x/10/ed/1a/10ed1ac123aa5f2df03fa69628c11d40.jpg" class="card-img img5" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow6">
+                    <img src="https://i.pinimg.com/564x/ce/40/eb/ce40eb9372f76d9f89dd302330278751.jpg" class="card-img img6" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow7">
+                    <img src="https://i.pinimg.com/564x/0c/bf/4a/0cbf4a57925e5058f1cc5f19c3949e85.jpg" class="card-img img7" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow8">
+                    <img src="https://i.pinimg.com/564x/6b/ce/6a/6bce6a9a24438e6d4f52d3bb32edb074.jpg" class="card-img img8" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst  shadow9">
+                    <img src="https://i.pinimg.com/564x/06/8c/a3/068ca3e6a92215992853696e77433531.jpg" class="card-img img9" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow10">
+                    <img src="https://i.pinimg.com/564x/12/57/f0/1257f0ebb02b1fac1d6fb8d7f1c33e6d.jpg" class="card-img img10" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow11">
+                    <img src="https://i.pinimg.com/564x/07/25/52/072552fef94132d84fa44cf9006db914.jpg" class="card-img img11" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow12">
+                    <img src="https://i.pinimg.com/564x/8b/fb/ee/8bfbee981cbca154ad5fd998c0455a42.jpg" class="card-img img12" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow13">
+                    <img src="https://i.pinimg.com/564x/36/35/59/3635596f267d6b5e035851b0537d1b77.jpg" class="card-img img13" alt="song">
+                    
+                </div>
+
+                
+
+                <div class="card pinterst shadow14">
+                    <img src="https://i.pinimg.com/564x/49/7c/45/497c4551973b231015e925a4f638a953.jpg" class="card-img img14" alt="song">
+                    
+                </div>
+
+                
+
+                <div class="card pinterst shadow15">
+                    <img src="https://i.pinimg.com/564x/69/8d/81/698d81590d87f19ce18eaf4d96968e16.jpg" class="card-img img15" alt="song">
+                    
+                </div>
+
+                <div class="card pinterst shadow16">
+                    <img src="https://i.pinimg.com/564x/4d/3d/85/4d3d858d895524cfbe9610a4ca350af9.jpg" class="card-img img16" alt="song">
+                    
+                </div>
+
+                
+                <div class="card pinterst shadow17">
+                    <img src="https://i.pinimg.com/564x/f6/77/81/f6778189f3fd75a96292217391853f2c.jpg" class="card-img img17" alt="song">
+                    
+                </div>
+
+            </div>
+
+                    
+            
+
+            <h2>Featured Charts</h2>
+
+            <div class="card-container">
+                <div class="card shadow18 charts">
+                    <img src="/images/card6img.jpeg" class="card-img6" alt="song">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+
+                <div class="card shadow19 charts">
+                    <img src="/images/card5img.jpeg" class="card-img5" alt="song">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+
+                <div class="card shadow20 charts">
+                    <img src="/images/card1img.jpeg" class="card-img1" alt="song">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="line">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="music-player">
+
+        <div class="album">
+            <img src="/images/album_picture.jpeg" alt="album">
+            <div class="par">
+
+                <p class="p1">We rollin</p>
+                <p class="p2">Shub</p>
+
+            </div>
+            <img src="/images/album_icon1.png" alt="album" class="heart">
+            
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="./images/player_icon1.png" alt="img" class="player-control-icon">
+
+                <img src="./images/player_icon2.png" alt="img" class="player-control-icon">
+
+                <img src="./images/player_icon3.png" alt="img" class="player-control-icon" id="pause-button">
+
+                <img src="./images/player_icon4.png" alt="img" class="player-control-icon">
+
+                <img src="./images/player_icon5.png" alt="img" class="player-control-icon">
+            </div>
+
+            <div class="playback-bar">
+                <span class="current-time">1:21</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="2">
+                <span class="total-time">3:24</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <img src="/images/controls_icon1.png" alt="controls" class="control-image1">
+            <img src="/images/controld_icon2.png" alt="controls" class="control-image2">
+            <img src="/images/controls_icon3.png" alt="controls" class="control-image3">
+            <img src="/images/controls_icon4.png" alt="controls" class="control-image4">
+            <img src="/images/controls_icon5.png" alt="controls" class="control-image5">
+            <input type="range" class="control-range">
+            <img src="/images/album_icon2.png" alt="controls" class="control-image6">
+        </div>
+
+
+    </div>
+
+    </div>
+    
+    
+</body>
+</html>

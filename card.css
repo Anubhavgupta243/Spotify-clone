@@ -1,0 +1,356 @@
+.cards h2{
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.card p {
+    margin: 16px 0px 12px;
+}
+
+.card, .card-title , .card-info{
+    background-color: #212121;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recently-played{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top50{
+    margin-top: 2rem;
+}
+
+.top50:hover {
+    box-shadow: 5px 5px 100px #65889c;
+    transition: 2s ease-in-out;
+}
+
+.card-container, h2{
+    background-color: #121212;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pinterst{
+    width: 300px;
+    height: 540px;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.pinterst1{
+    width: 300px;
+    height: 470px;
+    padding: 0.8rem;
+    border-radius: 0.75rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.shadow1{
+    border-radius: 2rem;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.card-img10{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px rgb(123, 167, 226);
+}
+
+.card-img2{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px #2e0f07;
+}
+
+.card-img3{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px #493937;
+}
+
+.card-img4{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px #b68c35;
+}
+
+.card-img6{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px #b01927;
+}
+
+.card-img5{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px #773795;
+}
+
+.card-img1{
+    width: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px 100px rgb(123, 167, 226);
+}
+
+.user{
+    padding: 1px;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    color: rgb(175, 173, 171);
+    
+}
+
+.footer{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.line{
+    height: 50%;
+    width: 90%;
+    border-top: 2px solid whitesmoke;
+    opacity: 0.5;
+}
+
+.shadow1:hover {
+    box-shadow: 5px 5px 100px #d5adb0;
+    transition: 2s ease-in-out;
+}
+
+.img1:hover{
+    box-shadow: 5px 5px 100px #716354;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow2:hover {
+    box-shadow: 5px 5px 100px #65889c;
+    transition: 2s ease-in-out;
+}
+
+
+.img2:hover{
+    box-shadow: 5px 5px 100px #1e394a;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow3:hover {
+    box-shadow: 5px 5px 100px #907885;
+    transition: 2s ease-in-out;
+}
+
+.img3:hover{
+    box-shadow: 5px 5px 100px #b2a39b;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow4:hover {
+    box-shadow: 5px 5px 100px #decbe5;
+    transition: 2s ease-in-out;
+}
+
+.img4:hover{
+    box-shadow: 5px 5px 100px #979797;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow5:hover {
+    box-shadow: 5px 5px 100px #4d2f4d;
+    transition: 2s ease-in-out;
+}
+
+.img5:hover{
+    box-shadow: 5px 5px 100px #200c23;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow6:hover {
+    box-shadow: 5px 5px 100px #1a2e4f;
+    transition: 2s ease-in-out;
+}
+
+.img6:hover{
+    box-shadow: 5px 5px 100px #435e7d;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow7:hover {
+    box-shadow: 5px 5px 100px #502a2b;
+    transition: 2s ease-in-out;
+}
+
+.img7:hover{
+    box-shadow: 5px 5px 100px #322a27;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow8:hover {
+    box-shadow: 5px 5px 100px #a796cd;
+    transition: 2s ease-in-out;
+}
+
+.img8:hover{
+    box-shadow: 5px 5px 100px #252034;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow9:hover {
+    box-shadow: 5px 5px 100px #cecfd6;
+    transition: 2s ease-in-out;
+}
+
+.img9:hover{
+    box-shadow: 5px 5px 100px #0b142e;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow10:hover {
+    box-shadow: 5px 5px 100px #685848;
+    transition: 2s ease-in-out;
+}
+
+.img10:hover{
+    box-shadow: 5px 5px 100px #362b21;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow11:hover {
+    box-shadow: 5px 5px 100px #90563e;
+    transition: 2s ease-in-out;
+}
+
+.img11:hover{
+    box-shadow: 5px 5px 100px #251810;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+
+.shadow12:hover {
+    box-shadow: 5px 5px 100px #6b3450;
+    transition: 2s ease-in-out;
+}
+
+.img12:hover{
+    box-shadow: 5px 5px 100px #333327;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow13:hover {
+    box-shadow: 5px 5px 100px #695347;
+    transition: 2s ease-in-out;
+}
+
+.img13:hover{
+    box-shadow: 5px 5px 100px #331d12;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow14:hover {
+    box-shadow: 5px 5px 100px #7a6fab;
+    transition: 2s ease-in-out;
+}
+
+.img14:hover{
+    box-shadow: 5px 5px 100px #655d52;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow15:hover {
+    box-shadow: 5px 5px 100px #6e4e8d;
+    transition: 2s ease-in-out;
+}
+
+.img15:hover{
+    box-shadow: 5px 5px 100px #b39eb2;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow16:hover {
+    box-shadow: 5px 5px 100px #c9b9a8;
+    transition: 2s ease-in-out;
+}
+
+.img16:hover{
+    box-shadow: 5px 5px 100px #60564a;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow17:hover {
+    box-shadow: 5px 5px 100px #b17f8e;
+    transition: 2s ease-in-out;
+}
+
+.img17:hover{
+    box-shadow: 5px 5px 100px #382c24;
+    transform: translateY(7px);
+    transition-duration: 2s;
+}
+
+.shadow18:hover {
+    box-shadow: 5px 5px 100px #b17f8e;
+    transition: 2s ease-in-out;
+}
+
+.shadow19:hover {
+    box-shadow: 5px 5px 100px #8b558b;
+    transition: 2s ease-in-out;
+}
+
+.shadow20:hover {
+    box-shadow: 5px 5px 100px #1d506b;
+    transition: 2s ease-in-out;
+}
+
+.charts {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
